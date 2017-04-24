@@ -4,7 +4,7 @@ Data source: [EMT OpenData](http://opendata.emtmadrid.es)
 
 ## Introduction
 
-![alt text](http://www.imageno.com/image.php?id=h4apsa8ns29m&kk=3486313256 Title Text 1")
+![EMT Madrid BiciMAD](http://www.imageno.com/image.php?id=h4apsa8ns29m&kk=3486313256)
 
 
 BiciMad is the public bike system in Madrid, Spain. I'm a big fan of commuting by bike in Madrid (even though car drivers are still complete assholes to bike drivers, and the city is not fully conditioned to bike traffic).
@@ -21,10 +21,14 @@ Built using Python 3.5.3.
 Please make sure you have the following libraries installed: `ipython`, `jupyter`, `pandas`, `numpy` and `bokeh`.
 
 If not, install them with either anaconda or pip:
+
 `pip install -U ipython jupyter pandas numpy bokeh`
+
 `conda install ipython jupyter pandas numpy bokeh`
 
+
 Then just launch the Jupyter notebook with:
+
 `ipython notebook`
 
 
