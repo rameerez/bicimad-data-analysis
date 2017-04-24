@@ -4,9 +4,6 @@ Data source: [EMT OpenData](http://opendata.emtmadrid.es)
 
 ## Introduction
 
-![EMT Madrid BiciMAD](http://www.imageno.com/image.php?id=h4apsa8ns29m&kk=3486313256)
-
-
 BiciMad is the public bike system in Madrid, Spain. I'm a big fan of commuting by bike in Madrid (even though car drivers are still complete assholes to bike drivers, and the city is not fully conditioned to bike traffic).
 
 I tend to use my own bike, but still I find myself more than often riding BiciMad bikes (it's pretty convenient: they have an electric motor that assists in pedaling, and you can just take and drop them in the nearest station without having to worry about getting your own bike stolen). Still, every time I've used them, I've detected a number of issues (broken bikes, out-of-order plugs, empty and completely full stations...)
