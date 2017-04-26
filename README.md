@@ -29,6 +29,10 @@ Then just launch the Jupyter notebook with:
 `ipython notebook`
 
 
+## Instructions
+
+Markdown tables for describing the datasets within the notebooks were created using [TablesGenerator](http://www.tablesgenerator.com/markdown_tables/load). They allow you to save/load tables in `tgn` format, those reside in the /doc folder.
+
 ## License
 
 MIT License
