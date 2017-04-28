@@ -1,5 +1,13 @@
 # BiciMAD Data Analysis
 
+Data analysis to help BiciMAD improve their public bike service through meaningful, data-based decisions.
+
+Copyright © 2017 Javi Ramírez <javi.rmrz@gmail.com> | [@rameerez [tw]](http://twitter.com/rameerez) | [GitHub](http://github.com/rameerez)
+
+This code is Open Source, released under the MIT License.
+
+_Made with ♥ from Madrid_
+
 Data source: [EMT OpenData](http://opendata.emtmadrid.es)
 
 ## Introduction
@@ -29,10 +37,8 @@ Then just launch the Jupyter notebook with:
 `ipython notebook`
 
 
-## Instructions
+## Notes
+
+Datasets under `/data` are being gitignored due to high weight.
 
 Markdown tables for describing the datasets within the notebooks were created using [TablesGenerator](http://www.tablesgenerator.com/markdown_tables/load). They allow you to save/load tables in `tgn` format, those reside in the /doc folder.
-
-## License
-
-MIT License
