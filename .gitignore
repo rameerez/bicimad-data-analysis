@@ -1,2 +1,5 @@
-/data
+/data/export_*.json
+/data/stations_hour_*.json
 /.ipynb_checkpoints
+/gmap_plot.html
+/stocks.html
