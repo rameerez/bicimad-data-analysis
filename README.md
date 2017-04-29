@@ -2,7 +2,7 @@
 
 Madrid's public bike system data analysis.
 
-Copyright © 2017 Javi Ramírez <javi.rmrz@gmail.com> | [@rameerez [tw]](http://twitter.com/rameerez) | [GitHub](http://github.com/rameerez)
+Copyright © 2017 Javi Ramírez [@rameerez [tw]](http://twitter.com/rameerez)
 
 This code is Open Source, released under the MIT License.
 
@@ -19,6 +19,12 @@ In April 2017 I contacted EMT Madrid (the public company that now runs BiciMad) 
 My goal with this data analysis is to discover hidden patterns that can reveal underlying problems, to provide BiciMad with powerful data-based suggestions that can help improve the service for all us Madrid citizens.
 
 Data source: [EMT OpenData](http://opendata.emtmadrid.es)
+
+## Data bias / restrictions
+
+Note that BiciMAD is filtering rides longer than 6 hours. This prevents us from analyzing the stolen / lost / missing bikes behavior.
+
+BiciMAD does not provide either unique IDs for bikes, thus we can't identify single bikes and therefore we can't analyze bike failure rates and so on.
 
 ## Installation
 
@@ -44,4 +50,15 @@ Uncompress the `.rar` file under `/data` and place the two `.json` files in `/da
 
 If you would like to use any other BiciMAD dataset, there is a global variable in each notebook to configure the datasets to be loaded.
 
-Markdown tables for describing the datasets within the notebooks were created using [TablesGenerator](http://www.tablesgenerator.com/markdown_tables/load). They allow you to save/load tables in `tgn` format, those reside in the /doc folder.
+Markdown tables for describing the datasets within the notebooks were created using [TablesGenerator](http://www.tablesgenerator.com/markdown_tables). They allow you to save/load tables in `tgn` format, those reside in the /doc folder.
+
+## To-do (& ideas & hipotheses to test)
+
+ - [ ] A lot of to-dos within the notebooks
+ - [ ] Maybe people under 25 are not using BiciMAD because of the 20€/month Metro+Train+Buses card (Abono Joven <25) – can we test that?
+ - [ ] Maybe it's difficult for older people to use BiciMAD (to set up an account and so)
+ - [ ] There might be stations high a higher ratio of defective bikes than others
+ - [ ] Are there clusters of users? (Maybe people using the bikes for commuting and others for pleasure / sightseeing)
+ - [ ] Heatmap of GPS routes - most active GPS points
+ - [ ] Are there demand peaks because of events going on in the city? (maybe sports events, there might be shortage of bikes in the Bernabeu area before and after a Real Madrid match)
+ - [ ] Can we model & predict demand peaks? (weather, events going on in the city...)
