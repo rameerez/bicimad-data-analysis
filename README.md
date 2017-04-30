@@ -2,11 +2,7 @@
 
 Madrid's public bike system data analysis.
 
-Copyright © 2017 Javi Ramírez [@rameerez [tw]](http://twitter.com/rameerez)
-
-This code is Open Source, released under the MIT License.
-
-_Made with ♥ from Madrid_
+_Javi Ramírez [@rameerez](http://twitter.com/rameerez)_
 
 ## Introduction
 
@@ -62,3 +58,7 @@ Markdown tables for describing the datasets within the notebooks were created us
  - [ ] Heatmap of GPS routes - most active GPS points
  - [ ] Are there demand peaks because of events going on in the city? (maybe sports events, there might be shortage of bikes in the Bernabeu area before and after a Real Madrid match)
  - [ ] Can we model & predict demand peaks? (weather, events going on in the city...)
+
+ ---
+
+Made with ♥ from Madrid
